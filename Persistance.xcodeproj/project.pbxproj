@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		ABF156C22C7E189800926E54 /* PersistanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF156C12C7E189800926E54 /* PersistanceApp.swift */; };
 		ABF156C42C7E189800926E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF156C32C7E189800926E54 /* ContentView.swift */; };
-		ABF156C62C7E189800926E54 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF156C52C7E189800926E54 /* Item.swift */; };
 		ABF156C82C7E189A00926E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF156C72C7E189A00926E54 /* Assets.xcassets */; };
 		ABF156CB2C7E189A00926E54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF156CA2C7E189A00926E54 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		ABF156BE2C7E189800926E54 /* Persistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF156C12C7E189800926E54 /* PersistanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceApp.swift; sourceTree = "<group>"; };
 		ABF156C32C7E189800926E54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ABF156C52C7E189800926E54 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		ABF156C72C7E189A00926E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF156CA2C7E189A00926E54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				ABF156C12C7E189800926E54 /* PersistanceApp.swift */,
 				ABF156C32C7E189800926E54 /* ContentView.swift */,
-				ABF156C52C7E189800926E54 /* Item.swift */,
 				ABF156C72C7E189A00926E54 /* Assets.xcassets */,
 				ABF156C92C7E189A00926E54 /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF156C42C7E189800926E54 /* ContentView.swift in Sources */,
-				ABF156C62C7E189800926E54 /* Item.swift in Sources */,
 				ABF156C22C7E189800926E54 /* PersistanceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
