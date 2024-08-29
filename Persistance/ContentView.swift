@@ -47,3 +47,7 @@ class College {
         self.name = name
     }
 }
+
+#Preview {
+ContentView()
+}
