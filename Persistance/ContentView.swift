@@ -17,27 +17,39 @@ struct ContentView: View {
     var body: some View {
         VStack{
             
-            TextField("Enter Name", text: $collegeName)
-                .textFieldStyle(.roundedBorder)
-            Button("+") {
-                let college = College(name: collegeName)
-                context.insert(college)
-                collegeName = ""
-            }
-            .font(.largeTitle)
-            
-        }
-        .padding()
-        
-        
-        List{
+            Text("To-do List and College Profiles")
+                .font(.largeTitle)
+            NavigationStack {
+                ZStack{
+                    
+                    NavigationLink("Quin"){
+                        QuinView()
+                    }
+                    
+                    TextField("Enter Name", text: $collegeName)
+                        .textFieldStyle(.roundedBorder)
+                    Button("+") {
+                        let college = College(name: collegeName)
+                        context.insert(college)
+                        collegeName = ""
+                    }
+                    .font(.largeTitle)
+                    
+                }
+                .padding()
+                
+                
+                List{
                     ForEach(Colleges) { currentCollege in
                         Text(currentCollege.name)
                     }
                 }
+            }
+        }
     }
 }
 
+    
 
 @Model
 class College {

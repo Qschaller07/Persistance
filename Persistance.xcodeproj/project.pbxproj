@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABDB3C222C80B4DE0084B1DD /* QuinCollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */; };
+		ABDB3C242C80BA280084B1DD /* QuinToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */; };
+		ABDB3C262C80BA4F0084B1DD /* QuinCollegeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */; };
 		ABF156C22C7E189800926E54 /* PersistanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF156C12C7E189800926E54 /* PersistanceApp.swift */; };
 		ABF156C42C7E189800926E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF156C32C7E189800926E54 /* ContentView.swift */; };
 		ABF156C82C7E189A00926E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF156C72C7E189A00926E54 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinCollegeView.swift; sourceTree = "<group>"; };
+		ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinToDoListView.swift; sourceTree = "<group>"; };
+		ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinCollegeProfileView.swift; sourceTree = "<group>"; };
 		ABF156BE2C7E189800926E54 /* Persistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF156C12C7E189800926E54 /* PersistanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceApp.swift; sourceTree = "<group>"; };
 		ABF156C32C7E189800926E54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				ABF156C12C7E189800926E54 /* PersistanceApp.swift */,
 				ABF156C32C7E189800926E54 /* ContentView.swift */,
+				ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */,
+				ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */,
+				ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */,
 				ABF156C72C7E189A00926E54 /* Assets.xcassets */,
 				ABF156C92C7E189A00926E54 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDB3C222C80B4DE0084B1DD /* QuinCollegeView.swift in Sources */,
+				ABDB3C262C80BA4F0084B1DD /* QuinCollegeProfileView.swift in Sources */,
 				ABF156C42C7E189800926E54 /* ContentView.swift in Sources */,
 				ABF156C22C7E189800926E54 /* PersistanceApp.swift in Sources */,
+				ABDB3C242C80BA280084B1DD /* QuinToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
