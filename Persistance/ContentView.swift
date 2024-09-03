@@ -7,31 +7,32 @@
 
 import SwiftUI
 import SwiftData
+import MapKit
 
 struct ContentView: View {
     
-    @Environment(\.modelContext) var context
-    @Query var Colleges: [College]
-    @State var collegeName = ""
+    
     
     var body: some View {
         VStack{
             
             Text("To-do List and College Profiles")
                 .font(.largeTitle)
+            
             NavigationStack {
                 ZStack{
                     
-                    NavigationLink("Quin"){
-                        QuinView()
-                    }
-                    
-                    TextField("Enter Name", text: $collegeName)
-                        .textFieldStyle(.roundedBorder)
-                    Button("+") {
-                        let college = College(name: collegeName)
-                        context.insert(college)
-                        collegeName = ""
+                    NavigationLink {
+                        QuinCollegeView()
+                    } label: {
+                        Text("Quin")
+                            .bold()
+                            .foregroundStyle(.white)
+                            .frame(width: 150, height: 100)
+                            .font(.title)
+                            .background(RoundedRectangle(cornerRadius: 25).fill(Color.cyan).shadow(radius: 3))
+                        
+                        
                     }
                     .font(.largeTitle)
                     
@@ -39,27 +40,11 @@ struct ContentView: View {
                 .padding()
                 
                 
-                List{
-                    ForEach(Colleges) { currentCollege in
-                        Text(currentCollege.name)
-                    }
-                }
+                
             }
         }
     }
 }
-
-    
-
-@Model
-class College {
-    var name: String
-    
-    init(name:String) {
-        self.name = name
-    }
-}
-
 #Preview {
 ContentView()
 }

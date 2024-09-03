@@ -8,32 +8,48 @@
 import SwiftUI
 import SwiftData
 
-struct QuinView: View {
+struct QuinCollegeView: View {
     var body: some View {
         VStack{
-            Text("Quin's To-do List and College Profile")
-                .font(.largeTitle)
+            
             
             NavigationStack{
                 
                 ZStack{
                     
-                    NavigationLink("To-do List") {
+                    NavigationLink {
+                        
                         QuinToDoListView()
+                        
+                    } label: {
+                        Text("To-do List")
+                            .bold()
+                            .foregroundStyle(.white)
+                            .frame(width: 150, height: 100)
+                            .font(.title)
+                            .background(RoundedRectangle(cornerRadius: 25).fill(Color.cyan).shadow(radius: 3))
+                        
+                    }
+                    
+                    
+                    NavigationLink {
+                        
+                        QuinCollegeProfileView()
+                        
+                    } label: {
+                        Text("College Profile")
+                            .bold()
+                            .foregroundStyle(.white)
+                            .frame(width: 150, height: 100)
+                            .font(.title)
+                            .background(RoundedRectangle(cornerRadius: 25).fill(Color.cyan).shadow(radius: 3))
                     }
                 }
-                .padding()
-                
-                
-                NavigationLink("College Profile") {
-                    QuinCollegeProfileView()
-                }
-                
             }
         }
     }
 }
-
 #Preview {
-    QuinView()
-}
+        QuinCollegeView()
+    }
+
