@@ -15,7 +15,7 @@ struct QuinCollegeView: View {
             
             NavigationStack{
                 
-                ZStack{
+                VStack{
                     
                     NavigationLink {
                         
@@ -28,9 +28,7 @@ struct QuinCollegeView: View {
                             .frame(width: 150, height: 100)
                             .font(.title)
                             .background(RoundedRectangle(cornerRadius: 25).fill(Color.cyan).shadow(radius: 3))
-                        
                     }
-                    
                     
                     NavigationLink {
                         
