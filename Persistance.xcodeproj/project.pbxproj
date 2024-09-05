@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98AE5EAF2C89F0C50026CF8D /* CollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EAE2C89F0C50026CF8D /* CollegeView.swift */; };
+		98AE5EB12C89F13A0026CF8D /* NewCollege1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EB02C89F13A0026CF8D /* NewCollege1.swift */; };
+		98AE5EB32C89F14F0026CF8D /* NewCollege2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EB22C89F14F0026CF8D /* NewCollege2.swift */; };
+		98AE5EB52C89F1640026CF8D /* VinceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EB42C89F1640026CF8D /* VinceApp.swift */; };
+		98AE5EB72C89F1720026CF8D /* VinceCollege1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EB62C89F1720026CF8D /* VinceCollege1.swift */; };
+		98AE5EB92C89F1810026CF8D /* VinceCollege2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EB82C89F1810026CF8D /* VinceCollege2.swift */; };
+		98AE5EBB2C89F1900026CF8D /* VinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE5EBA2C89F1900026CF8D /* VinceView.swift */; };
 		ABDB3C222C80B4DE0084B1DD /* QuinCollegeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */; };
 		ABDB3C242C80BA280084B1DD /* QuinToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */; };
 		ABDB3C262C80BA4F0084B1DD /* QuinCollegeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98AE5EAE2C89F0C50026CF8D /* CollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeView.swift; sourceTree = "<group>"; };
+		98AE5EB02C89F13A0026CF8D /* NewCollege1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollege1.swift; sourceTree = "<group>"; };
+		98AE5EB22C89F14F0026CF8D /* NewCollege2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCollege2.swift; sourceTree = "<group>"; };
+		98AE5EB42C89F1640026CF8D /* VinceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinceApp.swift; sourceTree = "<group>"; };
+		98AE5EB62C89F1720026CF8D /* VinceCollege1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinceCollege1.swift; sourceTree = "<group>"; };
+		98AE5EB82C89F1810026CF8D /* VinceCollege2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinceCollege2.swift; sourceTree = "<group>"; };
+		98AE5EBA2C89F1900026CF8D /* VinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinceView.swift; sourceTree = "<group>"; };
 		ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinCollegeView.swift; sourceTree = "<group>"; };
 		ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinToDoListView.swift; sourceTree = "<group>"; };
 		ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinCollegeProfileView.swift; sourceTree = "<group>"; };
@@ -62,6 +76,13 @@
 				ABDB3C232C80BA280084B1DD /* QuinToDoListView.swift */,
 				ABDB3C252C80BA4F0084B1DD /* QuinCollegeProfileView.swift */,
 				ABDB3C212C80B4DE0084B1DD /* QuinCollegeView.swift */,
+				98AE5EAE2C89F0C50026CF8D /* CollegeView.swift */,
+				98AE5EB02C89F13A0026CF8D /* NewCollege1.swift */,
+				98AE5EB22C89F14F0026CF8D /* NewCollege2.swift */,
+				98AE5EB42C89F1640026CF8D /* VinceApp.swift */,
+				98AE5EB62C89F1720026CF8D /* VinceCollege1.swift */,
+				98AE5EB82C89F1810026CF8D /* VinceCollege2.swift */,
+				98AE5EBA2C89F1900026CF8D /* VinceView.swift */,
 				ABF156C72C7E189A00926E54 /* Assets.xcassets */,
 				ABF156C92C7E189A00926E54 /* Preview Content */,
 			);
@@ -148,8 +169,15 @@
 			files = (
 				ABDB3C222C80B4DE0084B1DD /* QuinCollegeView.swift in Sources */,
 				ABDB3C262C80BA4F0084B1DD /* QuinCollegeProfileView.swift in Sources */,
+				98AE5EBB2C89F1900026CF8D /* VinceView.swift in Sources */,
 				ABF156C42C7E189800926E54 /* ContentView.swift in Sources */,
+				98AE5EB32C89F14F0026CF8D /* NewCollege2.swift in Sources */,
 				ABF156C22C7E189800926E54 /* PersistanceApp.swift in Sources */,
+				98AE5EB52C89F1640026CF8D /* VinceApp.swift in Sources */,
+				98AE5EB12C89F13A0026CF8D /* NewCollege1.swift in Sources */,
+				98AE5EB92C89F1810026CF8D /* VinceCollege2.swift in Sources */,
+				98AE5EB72C89F1720026CF8D /* VinceCollege1.swift in Sources */,
+				98AE5EAF2C89F0C50026CF8D /* CollegeView.swift in Sources */,
 				ABDB3C242C80BA280084B1DD /* QuinToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
